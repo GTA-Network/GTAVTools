@@ -29,4 +29,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Temp.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="RAGE_V_Animlist.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="RAGE_V_CTasks.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

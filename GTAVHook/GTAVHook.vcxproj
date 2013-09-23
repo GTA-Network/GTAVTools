@@ -72,6 +72,11 @@
     <ClInclude Include="Common.h" />
     <ClInclude Include="GTAV.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="RAGE_V_Animlist.txt" />
+    <Text Include="RAGE_V_CTasks.txt" />
+    <Text Include="Temp.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -20,21 +20,34 @@ misrepresented as being the original software.
 
 \*****************************************************************************/
 
-#include "CGTAHook.h"
-#include "GTAV.h"
+class CGTAVSpace_Network {
+public:
 
-CGTAVHook::CGTAVHook()
-{
-	//pSpace = static_cast<namespace>(eGTAVSpace);
-}
+	enum eVNetworkOptions {
+		OPT_ARBITRATED,
+		OPT_TIME,
+		OPT_KICK,
+		OPT_TEAM_NUMBER,
+		OPT_LOCKON,
+		OPT_FF
+	};
 
-CGTAVHook::~CGTAVHook()
-{
+	enum eVNetworkGameModes {
+		GAMEMODE_COPS_AND_CROOKS,	// CnC
+		GAMEMODE_FREEMODE,			// FREEMODE
+		GAMEMODE_COOP,				// COOP
+		GAMEMODE_DEATHMATCH,		// DM
+		GAMEMODE_T_DEATHMATCH,		// TDM
+		GAMEMODE_RACES,				// RACES
+		GAMEMODE_MPTESTBED,			// MPTestBed
+		GAMEMODE_MCLAUNCHER,		// MISSION CREATOR MISSION LAUNCHER.
+	};
 
-}
-
-void CGTAVHook::Initialise(BYTE iPlatform)
-{
-	CGTAVSpace * pSpace = new CGTAVSpace;
-	uiVersion = pSpace->GetVersion(iPlatform);
-}
+	enum eVNetworkFlags {
+		OPT_FLAG_ISACTIVE,
+		OPT_FLAG_ISLIST,
+		OPT_FLAG_DONT_SYNC,
+		OPT_FLAG_LOCKABLE,
+		OPT_FLAG_KICK_LIST
+	};
+};

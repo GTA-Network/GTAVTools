@@ -68,9 +68,14 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Achievments_MP.h" />
     <ClInclude Include="CGTAHook.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="GTAV.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Network.h" />
+    <ClInclude Include="Ped.h" />
+    <ClInclude Include="Tasks.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="RAGE_V_Animlist.txt" />

@@ -9,6 +9,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="Header Files\V">
+      <UniqueIdentifier>{328f7eaa-3b2d-48ec-828f-20a182008269}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -27,6 +30,21 @@
     </ClInclude>
     <ClInclude Include="Common.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ped.h">
+      <Filter>Header Files\V</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Header Files\V</Filter>
+    </ClInclude>
+    <ClInclude Include="Achievments_MP.h">
+      <Filter>Header Files\V</Filter>
+    </ClInclude>
+    <ClInclude Include="Tasks.h">
+      <Filter>Header Files\V</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\V</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

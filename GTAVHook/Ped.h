@@ -224,4 +224,10 @@ public:
 		GANG_ATTACK_WARNING,
 		GANG_ASK_PLAYER_LEAVE
 	};
+
+	enum eVPedProps {
+		PROP_HEAD,
+		PROP_EYES,
+		PROP_HIP
+	};
 };
